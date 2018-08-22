@@ -59,13 +59,13 @@ print('Label: ' + results['label'])
 print('Name: ' + results['name'])
 print('Release Date: ' + results['release_date'])
 
-print('URLs: ')
-for k, v in results['external_urls'].items():
-  print(k + ': ' + bb.link(v))
-
 print('Images: ')
 for img in results['images']:
   print(str(img['height']) + 'x' + str(img['width']) + '\t' + bb.image(img['url']))
 
 print('Tracks:')
 print(bb.tracklist(results['tracks']['items']))
+
+# Spotify urls
+for k, v in results['external_urls'].items():
+  print(k + ': ' + bb.link(v))
