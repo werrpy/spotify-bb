@@ -27,3 +27,7 @@ Images:
 Tracks:
 [list=1][*]1 Graffiti 03:38[/*][*]2 Get Out 03:51[/*][*]3 Deliverance 04:12[/*][*]4 My Enemy 03:53[/*][*]5 Forever 03:44[/*][*]6 Never Say Die 04:23[/*][*]7 Miracle 03:08[/*][*]8 Graves 04:43[/*][*]9 Heaven/Hell 05:05[/*][*]10 God's Plan 03:31[/*][*]11 Really Gone 03:11[/*][*]12 ii 01:09[/*][*]13 Wonderland 04:35[/*][/list]
 ```
+
+### Spotify API
+
+Create a client id at https://developer.spotify.com/dashboard/applications. Replace `client_id` and `client_secret` here: https://github.com/werrpy/spotify-bb/blob/master/spotifybb.py#L37-L39
