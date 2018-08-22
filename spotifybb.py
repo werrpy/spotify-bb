@@ -68,4 +68,4 @@ print(bb.tracklist(results['tracks']['items']))
 
 # Spotify urls
 for k, v in results['external_urls'].items():
-  print(k + ': ' + bb.link(v))
+  print(k.capitalize() + ': ' + bb.link(v))
